@@ -36,14 +36,12 @@ var students = [
 ]
 
 
-for(x = 0; x < students.length; x++){
+for( var x = 0; x < students.length; x++){
 
-    students.description = prompt('vai scrivi');
+var thisStudent = students[x];
+var thisNameSur = thisStudent.names + '  ' + thisStudent.Lastnames;
+thisStudent.description = prompt('dammi una descrizione' + thisNameSur);
 
-
-    // for(var k in students[0]) {
-        
-    // }
 
 }
 
