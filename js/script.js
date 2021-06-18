@@ -38,11 +38,11 @@ var students = [
 
 for( var x = 0; x < students.length; x++){
 
-var thisStudent = students[x];
-var thisNameSur = thisStudent.names + '  ' + thisStudent.Lastnames;
-thisStudent.description = prompt('dammi una descrizione' + thisNameSur);
+    // students[x].description = prompt("dammi una descrizione di" + students[x].names);
 
-
+    var thisStudent = students[x];
+    var thisNameSur = thisStudent.names + '  ' + thisStudent.Lastnames;
+    thisStudent.description = prompt('dammi una descrizione' + thisNameSur);
 }
 
 console.log(students);
